@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Cloud Storage</title>
+    <link rel="stylesheet" type="text/css" href="css/error.css">
+    <script type="text/javascript" src="comman.js"></script>
+</head>
+<body>
+    <div id="cover">
+    </div>
+    <div class="popup-menu" id="popup">
+        <div class="panel-heading">
+        <div class="panel-title">Error</div>
+        <div class="panel-btn">
+            <button type="cancel" name="cancel" class="btn-cancel" onclick="history.back()">X</button>
+        </div>
+        </div>  
+        <div class="panel-body" >
+        <form  id="EmployeeForm" class="form-horizontal">
+            <div class="form-group">
+            <div class="col-md-9">
+                <label class="form-control" style="width: 100%;">{{post.data}}</label>
+            </div>
+            </div>                                       
+            <div class="btn-div">
+            <button onclick="history.back()" name="submit" class="btn-primary">OK</button>   
+            </div>
+        </form>
+        </div>
+    </div>
+</body>
+</html>
+

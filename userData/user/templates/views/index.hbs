@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Cloud Storage</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" href="css/index.css">
+  <script type="text/javascript" src="comman.js"></script>
+</head>
+<body onload="hideButton()">	
+  <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+  
+		<div class="topnav" id="myTopnav">
+  			<img src="images/logo.png" width="100px" height="70px" style="margin-left: 20px; float: left;">
+  			<a href="/">Home</a>
+  			<a href="/files">Files</a>
+  			<a href="/contact">Contact</a>
+  			<a href="/about">About</a>
+  			<a href="/signup" class="{{post.class}}" id="signin">Sign Up</a>
+  			<a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    			<i class="fa fa-bars"></i>
+  			</a>
+		</div>
+		<div style="background-color: #ffafa2; overflow: auto;">	
+		<div class="content-div1">
+				<p style="padding-top: 7%; font-size: 50px; color: #0d2481; margin-top: 10px; margin-left: 15%; font-family: SharpGrotesk,Open Sans,sans-serif;"><b>Powerful cloud storage for all your files</b></p>
+				<p style="font-size: 20px;margin-top: 10px; margin-left: 15%; font-family: SharpGrotesk,Open Sans,sans-serif;">Keep everything safe in online storage</p>
+				<a href="/signup"><button style="margin-left: 15%;font-size: 20px; border: none; width: 30%; height: 30px; text-align: center; font-family: SharpGrotesk,Open Sans,sans-serif; border: none;
+          border-radius: 4px;cursor: pointer;">Try now
+				</button></a>
+		</div>
+		<div class="content-div2">
+			<img src="images/p1.png" height="85%" width="80%" style="padding-top: 7%;">
+		</div>
+		</div>
+		<div class="content-div3">
+			<img src="images/p2.png" height="85%" width="80%" style="padding-top: 7%;">
+		</div>
+		<div class="content-div4">
+			<p style="font-size: 30px;margin-top: 10px; margin-left: 15%; margin-top: 150px; font-family: SharpGrotesk,Open Sans,sans-serif;"><b>Back up any file or folder</b></p>
+			<p style="font-size: 18px;margin-top: 10px; margin-left: 15%; font-family: SharpGrotesk,Open Sans,sans-serif; padding-right: 30px;">No matter the file or folder you’re trying to back up-from photos and videos to large CAD files and PowerPoint presentations-you can store it safely using cloud storage solutions from Dropbox.</p>
+		</div>
+		<div class="content-div3" style="float: right;">
+			<img src="images/p3.png" height="85%" width="80%" style="padding-top: 7%;">
+		</div>
+		<div class="content-div4">
+			<p style="font-size: 30px;margin-left: 15%; margin-top: 100px; font-family: SharpGrotesk,Open Sans,sans-serif;"><b>Access your files from<br> multiple devices</b></p>
+			<p style="font-size: 18px;margin-top: 10px; margin-left: 15%; font-family: SharpGrotesk,Open Sans,sans-serif; padding-right: 70px;">Dropbox offers one central hub for online file storage, file sharing, and syncing. Whether you’re at work or on the road, Syour files are synced across your devices and accessible in real time. Access your Dropbox account with desktop apps on Windows and Mac, our mobile app for iOS or Android devices, and on the web through your browser.</p>
+		</div>	
+		<div class="content-div3">
+			<img src="images/p4.png" height="85%" width="80%" style="padding-top: 7%;">
+		</div>
+		<div class="content-div4">
+			<p style="font-size: 30px;margin-top: 10px; margin-left: 15%; margin-top: 150px; font-family: SharpGrotesk,Open Sans,sans-serif;"><b>Protect your data</b></p>
+			<p style="font-size: 18px;margin-top: 10px; margin-left: 15%; font-family: SharpGrotesk,Open Sans,sans-serif; padding-right: 30px;">If your device is lost or stolen, rest easy knowing your data’s safe. Remote wipe lets you clear all the files and folders from your missing device’s Dropbox account. All of your files are secure in cloud storage and backed up multiple times.</p>
+		</div>
+		<div class="content-div3"  style="float: right;">
+			<img src="images/p5.png" height="85%" width="80%" style="padding-top: 7%;">
+		</div>
+		<div class="content-div4">
+			<p style="font-size: 30px; margin-left: 15%; margin-top: 100px; font-family: SharpGrotesk,Open Sans,sans-serif;"><b>Recover your files</b></p>
+			<p style="font-size: 18px;margin-top: 10px; margin-left: 15%; font-family: SharpGrotesk,Open Sans,sans-serif; padding-right: 70px;">Accidentally delete a file or save a new version of a file you’re not happy with? No problem. Dropbox stores copies of all deleted files and folders for 30 days-or as many as 180 days for Dropbox Business users-including previous versions of files, so you can easily recover them. We also provide confirmation warnings on the desktop when team members move or delete files. They’ll know what happens when they take action, and fewer files will be lost accidentally.</p>
+		</div>
+		<div class="content-div3">
+			<img src="images/p6.png" height="85%" width="80%" style="padding-top: 7%;">
+		</div>
+		<div class="content-div4">
+			<p style="font-size: 30px;margin-top: 10px; margin-left: 15%; margin-top: 150px; font-family: SharpGrotesk,Open Sans,sans-serif;"><b>Get the right amount of<br> storage space for you</b></p>
+			<p style="font-size: 18px;margin-top: 10px; margin-left: 15%; font-family: SharpGrotesk,Open Sans,sans-serif; padding-right: 30px;">Need more storage space? Dropbox has a range of cloud storage solutions that will offer you the right amount of online storage-no matter how much you need.</p>
+		</div>
+		<div class="last-block">
+			<p style="position:relative;float: left; padding-top: 7%; font-size: 45px; color: #0d2481; margin-top: 10px; margin-left: 10%; font-family: SharpGrotesk,Open Sans,sans-serif;"><b>Powerful cloud storage for all 
+				<br>your files</b></p>
+			<a href="/signup"><button style="margin-left: 10%;font-size: 20px; border: none; width: 15%; height: 30px; text-align: center; font-family: SharpGrotesk,Open Sans,sans-serif; border: none;
+          border-radius: 4px;cursor: pointer; margin-top: 110px;">Try now
+				</button></a>
+		</div>
+		<!--<div style="background-color: #000000; width: 100%; height: auto; overflow: auto;">
+		<div class="end-block">
+			<p style="color: white; font-family: cursive; text-align: center; margin-top: 30%;"><b>CStorage</b></p>
+			<p style="margin-left: 35%;margin-top: 5px;"><a href="#plus" style="text-decoration: none; color: white;  font-family: monospace;">Plus</a></p>
+			<p style="margin-left: 35%;margin-top: 5px;"><a href="#business" style="text-decoration: none; color: white;  font-family: monospace;">Business</a></p>
+			<p style="margin-left: 35%;margin-top: 5px;"><a href="#enterprise" style="text-decoration: none; color: white;  font-family: monospace;">Enterprise</a></p>
+			<p style="margin-left: 35%;margin-top: 5px;"><a href="#paper" style="text-decoration: none; color: white;  font-family: monospace;">Paper</a></p>
+			<p style="margin-left: 35%;margin-top: 5px;"><a href="#plans" style="text-decoration: none; color: white;  font-family: monospace;">Plans</a></p>
+		</div>
+		<div class="end-block">
+			<p style="color: white; font-family: cursive; text-align: center; margin-top: 30%;"><b>Using CStorage</b></p>
+			<p style="margin-left: 26%;margin-top: 5px;"><a href="#help center" style="text-decoration: none; color: white;  font-family: monospace;">Help center</a></p>
+			<p style="margin-left: 26%;margin-top: 5px;"><a href="#security" style="text-decoration: none; color: white;  font-family: monospace;">Security</a></p>
+			<p style="margin-left: 26%;margin-top: 5px;"><a href="#features" style="text-decoration: none; color: white;  font-family: monospace;">Features</a></p>
+			<p style="margin-left: 26%;margin-top: 5px;"><a href="#productivity" style="text-decoration: none; color: white;  font-family: monospace;">Productivity</a></p>
+			<p style="margin-left: 26%;margin-top: 5px;"><a href="#apps and integrations" style="text-decoration: none; color: white;  font-family: monospace;">Apps and integrations</a></p>
+		</div>
+		<div class="end-block">
+			<p style="color: white; font-family: cursive; text-align: center; margin-top: 30%;"><b>Company</b></p>
+			<p style="margin-left: 36%;margin-top: 5px;"><a href="#about us" style="text-decoration: none; color: white;  font-family: monospace;">About us</a></p>
+			<p style="margin-left: 36%;margin-top: 5px;"><a href="#contact" style="text-decoration: none; color: white;  font-family: monospace;">Contact</a></p>
+			<p style="margin-left: 36%;margin-top: 5px;"><a href="#investor relations" style="text-decoration: none; color: white;  font-family: monospace;">Investor relations</a></p>
+			<p style="margin-left: 36%;margin-top: 5px;"><a href="#blog" style="text-decoration: none; color: white;  font-family: monospace;">Blog</a></p>
+		</div>
+		<div class="end-block">
+			<p style="color: white; font-family: cursive; text-align: center; margin-top: 30%;"><b>Downloads</b></p>
+			<p style="margin-left: 35%;margin-top: 5px;"><a href="#desktop app" style="text-decoration: none; color: white;  font-family: monospace;">Desktop app</a></p>
+			<p style="margin-left: 35%;margin-top: 5px;"><a href="#mobile apps" style="text-decoration: none; color: white;  font-family: monospace;">Mobile apps</a></p>
+		</div>
+		<div class="end-block">
+			<p style="color: white; font-family: cursive; text-align: center; margin-top: 30%;"><b>Legal</b></p>
+			<p style="margin-left: 42%;margin-top: 5px;"><a href="#privacy" style="text-decoration: none; color: white;  font-family: monospace;">Privacy</a></p>
+			<p style="margin-left: 42%;margin-top: 5px;"><a href="#terms" style="text-decoration: none; color: white;  font-family: monospace;">terms</a></p>
+			<p style="margin-left: 42%;margin-top: 5px;"><a href="#sitemap" style="text-decoration: none; color: white;  font-family: monospace;">Sitemap</a></p>
+		</div>
+		</div>-->
+</body>
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Cloud Storage</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" href="css/contact.css">
+  <script type="text/javascript" src="comman.js"></script>
+</head>
+<body onload="hideButton()">
+  <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+		<div class="topnav" id="myTopnav">
+        <img src="images/logo.png" width="100px" height="70px" style="margin-left: 20px; float: left;">
+        <a href="/">Home</a>
+  			<a href="/files">Files</a>
+  			<a href="/contact">Contact</a>
+  			<a href="/about">About</a>
+  			<a href="/signup" class="{{post.class}}" id="signin">Sign Up</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <i class="fa fa-bars"></i>
+        </a>
+    </div>
+    <div class="main-heading">
+        <p style="font-size: 35px;font-family: montserrat_light, montserrat, LatoWebLight, Arial; color: rgb(55, 55, 55);">Contact Us</p>
+      </div>
+      <div class="inn-card">
+        <img src="images/cont1.png" style="align-self: center; margin-top: 5%;"  height="70px" width="80px">
+        <p style="text-align: center;color: black;font-size: 25px"><b>Office Address</b></p>
+        <p style="text-align: center;color: black;font-size: 20px">A-12,Darshan Hostel,<br>Nr.Valetva,Changa,Anand<br> kigkong,USA</p>
+      </div>
+
+      <div class="inn-card2">
+        <img src="images/cont3.png" style="align-self: center; margin-top: 5%;"  height="70px" width="80px" >
+        <p style="text-align: center;color: black;font-size: 25px"><b>Phone Number</b></p>
+        <p style="text-align: center;color: black;font-size: 20px">+91-8758588958 <br> +91-8980942662</p>
+      </div>
+
+      <div class="inn-card3">
+        <img src="images/cont2.png" style="align-self: center; margin-top: 5%;"  height="70px" width="80px" >
+        <p style="text-align: center;color: black;font-size: 25px"><b>Email Address</b></p>
+        <p style="text-align: center;color: black;font-size: 20px"> www.bikeisyours.com <br> support.bikeisyours@gmail.com</p>
+      </div>
+    <!--<div style="background-color: #000000; width: 100%; height: auto; overflow: auto;">
+    <div class="end-block">
+      <p style="color: white; font-family: cursive; text-align: center; margin-top: 30%;"><b>CStorage</b></p>
+      <p style="margin-left: 35%;margin-top: 5px;"><a href="#plus" style="text-decoration: none; color: white;  font-family: monospace;">Plus</a></p>
+      <p style="margin-left: 35%;margin-top: 5px;"><a href="#business" style="text-decoration: none; color: white;  font-family: monospace;">Business</a></p>
+      <p style="margin-left: 35%;margin-top: 5px;"><a href="#enterprise" style="text-decoration: none; color: white;  font-family: monospace;">Enterprise</a></p>
+      <p style="margin-left: 35%;margin-top: 5px;"><a href="#paper" style="text-decoration: none; color: white;  font-family: monospace;">Paper</a></p>
+      <p style="margin-left: 35%;margin-top: 5px;"><a href="#plans" style="text-decoration: none; color: white;  font-family: monospace;">Plans</a></p>
+    </div>
+    <div class="end-block">
+      <p style="color: white; font-family: cursive; text-align: center; margin-top: 30%;"><b>Using CStorage</b></p>
+      <p style="margin-left: 26%;margin-top: 5px;"><a href="#help center" style="text-decoration: none; color: white;  font-family: monospace;">Help center</a></p>
+      <p style="margin-left: 26%;margin-top: 5px;"><a href="#security" style="text-decoration: none; color: white;  font-family: monospace;">Security</a></p>
+      <p style="margin-left: 26%;margin-top: 5px;"><a href="#features" style="text-decoration: none; color: white;  font-family: monospace;">Features</a></p>
+      <p style="margin-left: 26%;margin-top: 5px;"><a href="#productivity" style="text-decoration: none; color: white;  font-family: monospace;">Productivity</a></p>
+      <p style="margin-left: 26%;margin-top: 5px;"><a href="#apps and integrations" style="text-decoration: none; color: white;  font-family: monospace;">Apps and integrations</a></p>
+    </div>
+    <div class="end-block">
+      <p style="color: white; font-family: cursive; text-align: center; margin-top: 30%;"><b>Company</b></p>
+      <p style="margin-left: 36%;margin-top: 5px;"><a href="#about us" style="text-decoration: none; color: white;  font-family: monospace;">About us</a></p>
+      <p style="margin-left: 36%;margin-top: 5px;"><a href="#contact" style="text-decoration: none; color: white;  font-family: monospace;">Contact</a></p>
+      <p style="margin-left: 36%;margin-top: 5px;"><a href="#investor relations" style="text-decoration: none; color: white;  font-family: monospace;">Investor relations</a></p>
+      <p style="margin-left: 36%;margin-top: 5px;"><a href="#blog" style="text-decoration: none; color: white;  font-family: monospace;">Blog</a></p>
+    </div>
+    <div class="end-block">
+      <p style="color: white; font-family: cursive; text-align: center; margin-top: 30%;"><b>Downloads</b></p>
+      <p style="margin-left: 35%;margin-top: 5px;"><a href="#desktop app" style="text-decoration: none; color: white;  font-family: monospace;">Desktop app</a></p>
+      <p style="margin-left: 35%;margin-top: 5px;"><a href="#mobile apps" style="text-decoration: none; color: white;  font-family: monospace;">Mobile apps</a></p>
+    </div>
+    <div class="end-block">
+      <p style="color: white; font-family: cursive; text-align: center; margin-top: 30%;"><b>Legal</b></p>
+      <p style="margin-left: 42%;margin-top: 5px;"><a href="#privacy" style="text-decoration: none; color: white;  font-family: monospace;">Privacy</a></p>
+      <p style="margin-left: 42%;margin-top: 5px;"><a href="#terms" style="text-decoration: none; color: white;  font-family: monospace;">terms</a></p>
+      <p style="margin-left: 42%;margin-top: 5px;"><a href="#sitemap" style="text-decoration: none; color: white;  font-family: monospace;">Sitemap</a></p>
+    </div>
+    </div>-->
+</body>
